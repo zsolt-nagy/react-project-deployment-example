@@ -1,3 +1,4 @@
 # Project3
 ReactJS Project
-Name: Rashad Humphrey
+Your Name: Rashad Humphrey
+
