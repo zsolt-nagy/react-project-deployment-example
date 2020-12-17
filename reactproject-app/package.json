@@ -19,7 +19,7 @@
         "predeploy": "npm run build",
         "deploy": "gh-pages -d build"
     },
-    "homepage": "https://www.raisgood.github.io/Project3/",
+    "homepage": "https://raisgood.github.io/Project3",
     "eslintConfig": {
         "extends": [
             "react-app",
