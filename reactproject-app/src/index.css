@@ -1,304 +1,289 @@
 The entire app .App {
-    text-align: left;
+  text-align: left;
 }
 
 The header of the body .App-header {
-    background-color: white;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-    margin-top: -50px;
-    text-shadow: grey;
+  background-color: white;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin-top: -50px;
+  text-shadow: grey;
 }
-
-
 /*CSS Text from an earlier code IGNORE! */
 
 .player-container {
-    padding: 10px 10%;
-    border: 1px solid black;
-    margin: 10px 20%;
-    background-color: rgba(156, 141, 141, 0.6);
-    display: flex;
-    justify-content: space-between;
+  padding: 10px 10%;
+  border: 1px solid black;
+  margin: 10px 20%;
+  background-color: rgba(156, 141, 141, 0.6);
+  display: flex;
+  justify-content: space-between;
 }
 
 .choice {
-    justify-content: space-evenly;
+  justify-content: space-evenly;
 }
 
 .bg-info {
-    color: black;
-    font-style: bold;
-    background-color: royalblue;
+  color: black;
+  font-style: bold;
+  background-color: royalblue;
 }
 
 .bg-warning {
-    color: black;
-    font-style: bold;
+  color: black;
+  font-style: bold;
 }
 
 .bg-primary {
-    color: black;
-    font-style: bold;
+  color: black;
+  font-style: bold;
 }
 
 p {
-    font-size: 24px;
-    margin-top: 15px;
+  font-size: 24px;
+  margin-top: 15px;
 }
 
 .App-link {
-    color: #61dafb;
+  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 rect {
-    color: black;
-    text-align: center;
+  color: black;
+  text-align: center;
 }
 
 .rectangle {
-    height: 491px;
-    width: 400px;
-    text-shadow: 0em;
-    font-size: 60px;
-    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-    background-color: rgb(248, 4, 4);
-    color: black;
-    text-align: center;
-    margin: auto;
-    border: 3px solid black;
-    padding: 10px;
+  height: 491px;
+  width: 400px;
+  text-shadow: 0em;
+  font-size: 60px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background-color: rgb(248, 4, 4);
+  color: black;
+  text-align: center;
+  margin: auto;
+  border: 3px solid black;
+  padding: 10px;
 }
 
 */
 /*CSS Code for this document continues*/
-
-
 /*Heading*/
 
 .header {
-    background-color: #284550;
-    padding: 30px 40px;
-    color: rgb(0, 0, 0);
-    font-family: monospace;
-    font-style: unset;
-    font-weight: bolder;
-    font-stretch: expanded;
-    font-size: 50px;
-    text-align: center;
-    height: 100px;
+  background-color: #284550;
+  padding: 10px 10px;
+  color: rgb(0, 0, 0);
+  font-family: monospace;
+  font-style: unset;
+  font-weight: bolder;
+  font-stretch: expanded;
+  font-size: 50px;
+  text-align: center;
+  height: 100px;
 }
 
 h1 {
-    color: black;
-    background-color: rgba(136, 223, 140, 0.466);
-    margin: 1px;
+  color: black;
+  background-color: rgba(136, 223, 140, 0.466);
+  margin: 1px;
 }
-
-
 /*Code for entire file*/
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
-
-
 /* Second body heading */
 
 h2 {
-    font-size: 3rem;
-    font-style: oblique;
-    font-weight: bold;
-    line-height: 1px;
+  font-size: 3rem;
+  font-style: oblique;
+  font-weight: bold;
+  line-height: 1px;
 }
-
-
 /* To Do List Attributes */
 
 ul {
-    padding: 1px;
-    background-color: darkolivegreen;
-    color: black;
-    font-family: fantasy;
-    font-weight: bold;
+  padding: 1px;
+  background-color: darkolivegreen;
+  color: black;
+  font-family: fantasy;
+  font-weight: bold;
 }
 
 ul li {
-    cursor: pointer;
-    position: relative;
-    padding: 12px 8px 12px 40px;
-    background: #eee;
-    font-size: 18px;
-    transition: 0.2s;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  background: #eee;
+  font-size: 18px;
+  transition: 0.2s;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 ul li:nth-child(odd) {
-    background: #3b6694;
+  background: #3b6694;
 }
 
 ul li:hover {
-    background: #ddd;
+  background: #ddd;
 }
 
 ul li.checked {
-    background: #888;
-    color: #fff;
-    text-decoration: line-through;
+  background: #888;
+  color: #fff;
+  text-decoration: line-through;
 }
 
 ul li.checked::before {
-    content: "";
-    position: absolute;
-    border-color: #fff;
-    border-style: solid;
-    border-width: 0 2px 2px 0;
-    top: 10px;
-    left: 16px;
-    transform: rotate(45deg);
-    height: 15px;
-    width: 7px;
+  content: "";
+  position: absolute;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 10px;
+  left: 16px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
 }
-
-
 /* close button */
 
 .close {
-    position: absolute;
-    right: 0;
-    top: 0;
-    padding: 12px 16px 12px 16px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 16px 12px 16px;
 }
 
 .close:hover {
-    background-color: #f44336;
-    color: white;
+  background-color: #f44336;
+  color: white;
 }
-
-
 /* Header attributes */
 
 .header {
-    background-color: #317d9b;
-    padding: 20px 20px;
-    color: rgb(0, 0, 0);
-    font-style: unset;
-    font-weight: bolder;
-    font-stretch: expanded;
-    font-size: 50px;
-    text-align: center;
+  background-color: #317d9b;
+  padding: 10px 10px;
+  color: rgb(0, 0, 0);
+  font-style: unset;
+  font-weight: bolder;
+  font-stretch: expanded;
+  font-size: 50px;
+  text-align: center;
 }
 
 .header:after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
-
-
 /* Input Attributes */
 
 li input {
-    margin: 1px 15px;
-    border: none;
-    border-radius: inherit;
-    width: 50%;
-    height: 20px;
-    padding: 10px;
-    float: right;
-    font-size: 16px;
+  margin: 1px 15px;
+  border: none;
+  border-radius: inherit;
+  width: 50%;
+  height: 20px;
+  padding: 10px;
+  float: right;
+  font-size: 16px;
 }
-
-
 /* "Add" button attributes */
 
 .addBtn {
-    padding: 10px;
-    width: 25%;
-    background: #d9d9d9;
-    color: #555;
-    float: left;
-    text-align: center;
-    font-size: 16px;
-    cursor: pointer;
-    transition: 0.3s;
-    border-radius: 0;
+  padding: 10px;
+  width: 25%;
+  background: #d9d9d9;
+  color: #555;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
 }
 
 .addBtn:hover {
-    background-color: #bbb;
+  background-color: #bbb;
 }
-
-
 /* Top of the document */
 
 #contactHeading {
-    text-align: center;
-    font-size: 1.5rem;
-    font-family: fantasy;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: fantasy;
 }
-
-
 /* labels */
 
 label {
-    margin-bottom: 0.5rem;
-    line-height: 1rem;
-    line-break: auto;
+  margin-bottom: 0.5rem;
+  line-height: 1rem;
+  line-break: auto;
 }
 
 label input {
-    color: black;
-    box-shadow: 0 0 black;
+  color: black;
+  box-shadow: 0 0 black;
 }
-
-
 /* Email form */
 
 form {
-    background-color: #317d9b;
-    color: black;
-    text-align: left;
-    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-    padding: 5px;
+  background-color: #317d9b;
+  color: black;
+  text-align: left;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding: 5px;
 }
-
-
 /* Box for email submission */
 
 textarea {
-    overflow: auto;
-    resize: vertical;
-    text-align: left;
-    height: 100px;
-    width: 250px;
+  overflow: auto;
+  resize: vertical;
+  text-align: left;
+  height: 100px;
+  width: 250px;
 }
-
-
 /* Send Button */
 
+#sendButton1 {
+  color: white;
+  background-color: rgb(5, 5, 5);
+  width: 50px;
+  height: 30px;
+  box-shadow: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: right;
+  float: right;
+  margin: -30px 20px 10px 20px;
+}
+
 #sendButton {
-    color: white;
-    background-color: rgb(5, 5, 5);
-    width: 50px;
-    height: 30px;
-    box-shadow: 10px;
-    display: flex;
+  color: white;
+  background-color: rgb(5, 5, 5);
+  width: 50px;
+  height: 30px;
+  box-shadow: 10px;
+  display: flex;
 }
